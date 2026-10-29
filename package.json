@@ -1,0 +1,14 @@
+{
+  "name": "ineuna-homepage",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "create-admin": "node scripts/create-admin.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^6.10.0"
+  }
+}
